@@ -2,5 +2,6 @@
 
 cd "/opt/quake4"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
+export SDL_VIDEODRIVER=x11
 ./quake4.x86 $*
 exit $?
